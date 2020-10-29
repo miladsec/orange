@@ -2,6 +2,7 @@
     "name": "miladzamir/orange",
     "description": "An orange package xD",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Milad Dehghan",
