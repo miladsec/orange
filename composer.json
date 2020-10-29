@@ -1,0 +1,24 @@
+{
+    "name": "miladzamir/orange",
+    "description": "An orange package xD",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milad Dehghan",
+            "email": "milawddehghan@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MiladZamir\\Orange\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "MiladZamir\\Orange\\OrangeServiceProvider"
+            ]
+        }
+    }
+}
