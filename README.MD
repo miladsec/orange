@@ -34,7 +34,7 @@ Orange::smsSend(['091312345678'],'Hi my brother!', '10000001');
 ```php
 use MiladZamir\Orange\Orange;
 
-Orange::smsLookup('091312345678','','','','verify');
+Orange::smsLookup('091312345678','569325','','','verify');
 
 ```
 
@@ -44,5 +44,5 @@ Orange::smsLookup('091312345678','','','','verify');
 ```php
 use MiladZamir\Orange\Orange;
 
-Orange::smsLookup('091312345678','','','','verify');Orange::smsReceive('100000000005',true);
+Orange::smsReceive('100000000005',true);
 ```
