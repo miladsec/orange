@@ -3,6 +3,7 @@
     "description": "An orange package xD",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Milad Dehghan",
